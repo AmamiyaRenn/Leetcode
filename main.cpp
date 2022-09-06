@@ -1,11 +1,13 @@
-#include "Solution.h"
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-    vector<int> nums{-2, -1};
-    Solution solution;
-    cout << solution.maxSubArray(nums) << endl;
+    // vector<int> nums{-2, -1};
+    // Solution solution;
+    // cout << solution.maxSubArray(nums) << endl;
     return 0;
 }

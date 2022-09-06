@@ -1,6 +1,3 @@
-#ifndef _SOLUTION_H
-#define _SOLUTION_H
-
 #include <iostream>
 #include <cstdio>
 #include <vector>
@@ -21,5 +18,3 @@ public:
         return vector<int>{0, 0};
     }
 };
-
-#endif
