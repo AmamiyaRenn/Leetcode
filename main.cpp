@@ -1,16 +1,14 @@
-#include "inc/q88.h"
+#include "inc/i08_06.h"
 
 using namespace std;
 
 int main()
 {
-    vector<int> nums1{2, 0};
-    vector<int> nums2{1};
+    vector<int> A{2, 1, 0}, B, C;
     Solution solution;
-    solution.merge(nums1, 1, nums2, 1);
-    for (int num1 : nums1)
-        cout << num1 << " ";
-    cout << endl;
+    solution.hanota(A, B, C);
+    for (int a : A)
+        cout << a << " ";
 
     return 0;
 }
